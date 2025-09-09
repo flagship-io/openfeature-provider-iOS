@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,7 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		E24726D2AC432BEFFE64DD9C /* Pods_ABTastyOpenfeature_iOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667C94896E5A32BC92F470A6 /* Pods_ABTastyOpenfeature_iOS_Tests.framework */; };
 		F55C01642E708C3C0049C2ED /* ABTastyProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55C01632E708C3C0049C2ED /* ABTastyProviderTests.swift */; };
-		F55C01852E7091200049C2ED /* ABTastyOpenfeature-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = F55C01842E7091200049C2ED /* ABTastyOpenfeature-iOS */; };
+		F5F9A2952E709A2100FF55C3 /* ABTastyOpenfeature_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F9A2942E709A2100FF55C3 /* ABTastyOpenfeature_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +48,7 @@
 		F21006337768F3BB99D681B6 /* Pods-ABTastyOpenfeature-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABTastyOpenfeature-iOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ABTastyOpenfeature-iOS_Tests/Pods-ABTastyOpenfeature-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F55C01632E708C3C0049C2ED /* ABTastyProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABTastyProviderTests.swift; sourceTree = "<group>"; };
 		F55C01662E708E3E0049C2ED /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = SOURCE_ROOT; };
+		F5F9A2942E709A2100FF55C3 /* ABTastyOpenfeature_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ABTastyOpenfeature_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80737A0C6EB1F1CA4979B85 /* Pods_ABTastyOpenfeature_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABTastyOpenfeature_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -56,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F55C01852E7091200049C2ED /* ABTastyOpenfeature-iOS in Frameworks */,
+				F5F9A2952E709A2100FF55C3 /* ABTastyOpenfeature_iOS.framework in Frameworks */,
 				568E9D5374A4ADCF21E3087D /* Pods_ABTastyOpenfeature_iOS_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +76,7 @@
 		3ECD7CF4C7553927773FD29F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F5F9A2942E709A2100FF55C3 /* ABTastyOpenfeature_iOS.framework */,
 				F80737A0C6EB1F1CA4979B85 /* Pods_ABTastyOpenfeature_iOS_Example.framework */,
 				667C94896E5A32BC92F470A6 /* Pods_ABTastyOpenfeature_iOS_Tests.framework */,
 			);
@@ -174,7 +176,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				75DFE950F0816C39C155E95C /* [CP] Embed Pods Frameworks */,
+				9980D56BC17F8491FDB88891 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,8 +237,6 @@
 				Base,
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
-			packageReferences = (
-			);
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -290,28 +290,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		75DFE950F0816C39C155E95C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ABTastyOpenfeature-iOS_Example/Pods-ABTastyOpenfeature-iOS_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ABTastyOpenfeature-iOS/ABTastyOpenfeature_iOS.framework",
-				"${BUILT_PRODUCTS_DIR}/FlagShip/FlagShip.framework",
-				"${BUILT_PRODUCTS_DIR}/OpenFeature/OpenFeature.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ABTastyOpenfeature_iOS.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlagShip.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenFeature.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABTastyOpenfeature-iOS_Example/Pods-ABTastyOpenfeature-iOS_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9504C6FCDBEE9D48FBAD5384 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,6 +310,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9980D56BC17F8491FDB88891 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABTastyOpenfeature-iOS_Example/Pods-ABTastyOpenfeature-iOS_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ABTastyOpenfeature-iOS/ABTastyOpenfeature_iOS.framework",
+				"${BUILT_PRODUCTS_DIR}/FlagShip/FlagShip.framework",
+				"${BUILT_PRODUCTS_DIR}/OpenFeature/OpenFeature.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ABTastyOpenfeature_iOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlagShip.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenFeature.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABTastyOpenfeature-iOS_Example/Pods-ABTastyOpenfeature-iOS_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -478,8 +478,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -491,10 +490,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ABTastyOpenfeature-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,10 +506,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ABTastyOpenfeature-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -536,11 +529,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -559,11 +548,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -603,13 +588,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		F55C01842E7091200049C2ED /* ABTastyOpenfeature-iOS */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = "ABTastyOpenfeature-iOS";
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }

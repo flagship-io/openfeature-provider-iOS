@@ -1,0 +1,27 @@
+PODS:
+  - ABTastyOpenfeature-iOS (1.0.0):
+    - FlagShip (~> 4.0.0)
+    - OpenFeature (~> 0.3.0)
+  - FlagShip (4.0.1)
+  - OpenFeature (0.3.0)
+
+DEPENDENCIES:
+  - ABTastyOpenfeature-iOS (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FlagShip
+    - OpenFeature
+
+EXTERNAL SOURCES:
+  ABTastyOpenfeature-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ABTastyOpenfeature-iOS: 74eb66d2048fe6d3390ab8b9249b5b33e64bcb82
+  FlagShip: 815d0bc2313e8d54e3922d63b875349cd8eee499
+  OpenFeature: 985529d7d21078c4166233b254446728af642c49
+
+PODFILE CHECKSUM: e37fe72ceda6476e38cd219f46c092e19849288d
+
+COCOAPODS: 1.16.2

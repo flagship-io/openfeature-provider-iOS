@@ -134,7 +134,7 @@ class ViewController: UIViewController {
         )
 
         Task {
-            let provider = ABTastyProvider(envId: "bkk9glocmjcg0vtmdlng", apiKey: "DxAcxlnRB9yFBZYtLDue1q01dcXZCw6aM49CQB23", configurator: FSConfigBuilder().build())
+            let provider = ABTastyProvider(envId: "envId", apiKey: "apiKey", configurator: FSConfigBuilder().build())
             await OpenFeatureAPI.shared.setProviderAndWait(provider: provider, initialContext: ctx)
 
             // Update the labels on the main thread
@@ -180,4 +180,3 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 }
-
