@@ -1,0 +1,6 @@
+framework module ABTastyOpenfeature_iOS {
+  umbrella header "ABTastyOpenfeature-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module OpenFeature {
+  umbrella header "OpenFeature-umbrella.h"
+
+  export *
+  module * { export * }
+}
