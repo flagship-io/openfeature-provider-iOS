@@ -221,7 +221,7 @@
 		453378F5F8821CAFB2106E97D87A9B11 /* OpenFeatureClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenFeatureClient.swift; path = Sources/OpenFeature/OpenFeatureClient.swift; sourceTree = "<group>"; };
 		4632015D862794DAF8A6E1D0778EDCBF /* MutableContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MutableContext.swift; path = Sources/OpenFeature/MutableContext.swift; sourceTree = "<group>"; };
 		46F1C77A9333D2CECB7CEE9C1F339C91 /* Data+PrettyPrint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+PrettyPrint.swift"; path = "FlagShip/Source/Tools/Data+PrettyPrint.swift"; sourceTree = "<group>"; };
-		4B501C06A1B1EF2E461286FABF056EAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4B501C06A1B1EF2E461286FABF056EAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4CA1C1406ED5E132E91A95BCCFE59099 /* FSDefaultCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSDefaultCache.swift; path = FlagShip/Source/Cache/FSDefaultCache.swift; sourceTree = "<group>"; };
 		4D3FEC6BBAFEEFBEAE07C66335EE3796 /* OpenFeature-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenFeature-dummy.m"; sourceTree = "<group>"; };
 		56715C7E10C126666098FE736F44F7B0 /* OpenFeature.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenFeature.debug.xcconfig; sourceTree = "<group>"; };
@@ -253,10 +253,10 @@
 		7EA0F0CFF2404ADFDAE521FA799672B2 /* HookSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HookSupport.swift; path = Sources/OpenFeature/HookSupport.swift; sourceTree = "<group>"; };
 		7F2969770B547520D09781C9D3DB4695 /* FSFlagMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSFlagMetadata.swift; path = FlagShip/Source/Core/FSFlagMetadata.swift; sourceTree = "<group>"; };
 		7F55A4776C73F50A04327D5BC1B6AC48 /* FSVisitor+Reconcilliation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSVisitor+Reconcilliation.swift"; path = "FlagShip/Source/Core/FSVisitor+Reconcilliation.swift"; sourceTree = "<group>"; };
-		8206008D633C132000AA6B69A21F86FC /* Pods-ABTastyOpenfeature-iOS_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ABTastyOpenfeature-iOS_Example"; path = Pods_ABTastyOpenfeature_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8206008D633C132000AA6B69A21F86FC /* Pods_ABTastyOpenfeature_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABTastyOpenfeature_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8668ECAAEEE823814ACF6C42E3403FAE /* ABTastyProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABTastyProvider.swift; path = "ABTastyOpenfeature-iOS/Classes/ABTastyProvider.swift"; sourceTree = "<group>"; };
 		86E98E6A6CA4A0A5A3F38BC347D25FAA /* NoOpProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoOpProvider.swift; path = Sources/OpenFeature/Provider/NoOpProvider.swift; sourceTree = "<group>"; };
-		873E81FA89512DC2EB3B3754D3D5A44E /* ABTastyOpenfeature-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "ABTastyOpenfeature-iOS"; path = ABTastyOpenfeature_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		873E81FA89512DC2EB3B3754D3D5A44E /* ABTastyOpenfeature_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ABTastyOpenfeature_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88305B194A9AEFF77198945DF0AEDC61 /* FSTrackingDbMgt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTrackingDbMgt.swift; path = FlagShip/Source/Storage/FSTrackingDbMgt.swift; sourceTree = "<group>"; };
 		8B2F2C431EC69AC0E8A4F2F49D6ABB73 /* EvaluationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EvaluationContext.swift; path = Sources/OpenFeature/EvaluationContext.swift; sourceTree = "<group>"; };
 		8C2AC9A0E34B71610C919B1A9039FE15 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/OpenFeature/Value.swift; sourceTree = "<group>"; };
@@ -267,12 +267,12 @@
 		984F92569CE58EEE9959700A5C91643C /* murmurhash3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = murmurhash3.swift; path = FlagShip/Source/Tools/murmurhash3.swift; sourceTree = "<group>"; };
 		99DA5D731B8F844CD69496871F5C008A /* Structure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Structure.swift; path = Sources/OpenFeature/Structure.swift; sourceTree = "<group>"; };
 		9D6138E331A52A452FBC579920D80686 /* FSNoConsentStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSNoConsentStrategy.swift; path = FlagShip/Source/Strategy/FSNoConsentStrategy.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DC4C3DB6B4CE32FA6B412DA714ACFF2 /* FlagShip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagShip.debug.xcconfig; sourceTree = "<group>"; };
 		9E338016C7101B33E3212A65B13CB447 /* FSFlag+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSFlag+Additions.swift"; path = "FlagShip/Source/Core/Flag/FSFlag+Additions.swift"; sourceTree = "<group>"; };
 		9E48003DD87940E08CA674C21438AE17 /* FlagValueType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagValueType.swift; path = Sources/OpenFeature/FlagValueType.swift; sourceTree = "<group>"; };
 		9FDAB83250FB8A5F9B1D2B8609F1F4B4 /* FSVisitorDbMgt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSVisitorDbMgt.swift; path = FlagShip/Source/Storage/FSVisitorDbMgt.swift; sourceTree = "<group>"; };
-		A1241618C0CF4759DF08B4B1F2489A26 /* ABTastyOpenfeature-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "ABTastyOpenfeature-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1241618C0CF4759DF08B4B1F2489A26 /* ABTastyOpenfeature-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "ABTastyOpenfeature-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; };
 		A1C976288065F9520ABECF58C8F679C4 /* FSHits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSHits.swift; path = FlagShip/Source/Models/Tracking/FSHits.swift; sourceTree = "<group>"; };
 		A28ED28D55F5A4DF5D94E5ACA0E42991 /* Features.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Features.swift; path = Sources/OpenFeature/Features.swift; sourceTree = "<group>"; };
 		A3C2C5897BDD960B32A4CF9400B50CD3 /* FSITrackingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSITrackingManager.swift; path = FlagShip/Source/Tracking/FSITrackingManager.swift; sourceTree = "<group>"; };
@@ -283,7 +283,7 @@
 		A5F920698098E9E5AA99DF31CABDF4E9 /* FSModification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSModification.swift; path = FlagShip/Source/Models/FSModification.swift; sourceTree = "<group>"; };
 		A6DB90906BAEAEBB5D841C0B8C6B164B /* FSVisitorExposed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSVisitorExposed.swift; path = FlagShip/Source/Core/FSVisitorExposed.swift; sourceTree = "<group>"; };
 		A81532F1B8BFC787CD893FCCF4830210 /* Client.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Client.swift; path = Sources/OpenFeature/Client.swift; sourceTree = "<group>"; };
-		A877C7ED5A0BC16547E5F75B9D89CC38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A877C7ED5A0BC16547E5F75B9D89CC38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A8AEAA01B7A79109A2DE90FAE225BA67 /* FSVisitorBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSVisitorBuilder.swift; path = FlagShip/Source/Core/FSVisitorBuilder.swift; sourceTree = "<group>"; };
 		A8F920CBF5A4D8A93C197078CC38BD7F /* FlagShip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagShip.release.xcconfig; sourceTree = "<group>"; };
 		AA7B3A4618570D0E1BEAA8D0C6233BF3 /* FlagshipContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagshipContext.swift; path = FlagShip/Source/Audience/FlagshipContext.swift; sourceTree = "<group>"; };
@@ -312,8 +312,8 @@
 		CF23AF44C792B944577602BFD75F71B4 /* FSBatchManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSBatchManager.swift; path = FlagShip/Source/Tracking/Batch/FSBatchManager.swift; sourceTree = "<group>"; };
 		D074451B51EF756BCDD128CB6ED63932 /* FSCacheVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCacheVisitor.swift; path = FlagShip/Source/Models/FSCacheVisitor.swift; sourceTree = "<group>"; };
 		D1E64199041CD7E25E22474D7BF759DF /* FSConstant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSConstant.swift; path = FlagShip/Source/API/FSConstant.swift; sourceTree = "<group>"; };
-		D23D8A84B704D962821DCDD1602DE431 /* OpenFeature */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OpenFeature; path = OpenFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4FB61EFDD0B7B5925FD973B4B8641C6 /* Pods-ABTastyOpenfeature-iOS_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ABTastyOpenfeature-iOS_Tests"; path = Pods_ABTastyOpenfeature_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23D8A84B704D962821DCDD1602DE431 /* OpenFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4FB61EFDD0B7B5925FD973B4B8641C6 /* Pods_ABTastyOpenfeature_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABTastyOpenfeature_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2E3A3398D66EDCCE4F9DC8FC9BDE65 /* FSService+Bucketing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSService+Bucketing.swift"; path = "FlagShip/Source/API/FSService+Bucketing.swift"; sourceTree = "<group>"; };
 		DAFF4578A81318E677F3F712F12FBB1F /* ABTastyOpenfeature-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ABTastyOpenfeature-iOS.modulemap"; sourceTree = "<group>"; };
 		DC09354CD14662F03DB3EDE83E6A5418 /* Pods-ABTastyOpenfeature-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABTastyOpenfeature-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -324,7 +324,7 @@
 		E7D97535DB574E0C0F23953FC7AEDEB6 /* Flagship.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flagship.swift; path = FlagShip/Source/Core/Flagship.swift; sourceTree = "<group>"; };
 		E7E8C9C27085D8D949FDE1220FE8D3AB /* Pods-ABTastyOpenfeature-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABTastyOpenfeature-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EA3E58F893E386ADB7CE94D7E39D3A4E /* ErrorCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorCode.swift; path = Sources/OpenFeature/exceptions/ErrorCode.swift; sourceTree = "<group>"; };
-		ED0119196D4BF4F29B445385A429F716 /* FlagShip */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlagShip; path = FlagShip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0119196D4BF4F29B445385A429F716 /* FlagShip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlagShip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE167D459E7DB1BFB64CD55A3F6B5608 /* HookContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HookContext.swift; path = Sources/OpenFeature/HookContext.swift; sourceTree = "<group>"; };
 		EFF9C517467DC7EBEECD0E5BBE206FDE /* ABModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABModel.swift; path = "ABTastyOpenfeature-iOS/Classes/ABModel.swift"; sourceTree = "<group>"; };
 		F1A9AA1C748E8D754FE4388C6A76F711 /* FSBucketingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSBucketingManager.swift; path = FlagShip/Source/Decision/Bucketing/FSBucketingManager.swift; sourceTree = "<group>"; };
@@ -392,11 +392,11 @@
 		283122CC232AAD5606E1035E6A8AF831 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				873E81FA89512DC2EB3B3754D3D5A44E /* ABTastyOpenfeature-iOS */,
-				ED0119196D4BF4F29B445385A429F716 /* FlagShip */,
-				D23D8A84B704D962821DCDD1602DE431 /* OpenFeature */,
-				8206008D633C132000AA6B69A21F86FC /* Pods-ABTastyOpenfeature-iOS_Example */,
-				D4FB61EFDD0B7B5925FD973B4B8641C6 /* Pods-ABTastyOpenfeature-iOS_Tests */,
+				873E81FA89512DC2EB3B3754D3D5A44E /* ABTastyOpenfeature_iOS.framework */,
+				ED0119196D4BF4F29B445385A429F716 /* FlagShip.framework */,
+				D23D8A84B704D962821DCDD1602DE431 /* OpenFeature.framework */,
+				8206008D633C132000AA6B69A21F86FC /* Pods_ABTastyOpenfeature_iOS_Example.framework */,
+				D4FB61EFDD0B7B5925FD973B4B8641C6 /* Pods_ABTastyOpenfeature_iOS_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -435,7 +435,6 @@
 				8C2AC9A0E34B71610C919B1A9039FE15 /* Value.swift */,
 				57260013DDB0D9C67865083A74B401FD /* Support Files */,
 			);
-			name = OpenFeature;
 			path = OpenFeature;
 			sourceTree = "<group>";
 		};
@@ -592,7 +591,6 @@
 				984F92569CE58EEE9959700A5C91643C /* murmurhash3.swift */,
 				637DDD80B35DD51DFE5692A88B336A51 /* Support Files */,
 			);
-			name = FlagShip;
 			path = FlagShip;
 			sourceTree = "<group>";
 		};
@@ -732,7 +730,7 @@
 			);
 			name = "Pods-ABTastyOpenfeature-iOS_Tests";
 			productName = Pods_ABTastyOpenfeature_iOS_Tests;
-			productReference = D4FB61EFDD0B7B5925FD973B4B8641C6 /* Pods-ABTastyOpenfeature-iOS_Tests */;
+			productReference = D4FB61EFDD0B7B5925FD973B4B8641C6 /* Pods_ABTastyOpenfeature_iOS_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1EA887815A23B7F13FF51834849AB2D4 /* ABTastyOpenfeature-iOS */ = {
@@ -752,7 +750,7 @@
 			);
 			name = "ABTastyOpenfeature-iOS";
 			productName = ABTastyOpenfeature_iOS;
-			productReference = 873E81FA89512DC2EB3B3754D3D5A44E /* ABTastyOpenfeature-iOS */;
+			productReference = 873E81FA89512DC2EB3B3754D3D5A44E /* ABTastyOpenfeature_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		47E33CF03D7ADFF9A9DE08551D9055EC /* Pods-ABTastyOpenfeature-iOS_Example */ = {
@@ -773,7 +771,7 @@
 			);
 			name = "Pods-ABTastyOpenfeature-iOS_Example";
 			productName = Pods_ABTastyOpenfeature_iOS_Example;
-			productReference = 8206008D633C132000AA6B69A21F86FC /* Pods-ABTastyOpenfeature-iOS_Example */;
+			productReference = 8206008D633C132000AA6B69A21F86FC /* Pods_ABTastyOpenfeature_iOS_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CFEAFDEF72B3F4A2C357D931FAF6A4B6 /* OpenFeature */ = {
@@ -791,7 +789,7 @@
 			);
 			name = OpenFeature;
 			productName = OpenFeature;
-			productReference = D23D8A84B704D962821DCDD1602DE431 /* OpenFeature */;
+			productReference = D23D8A84B704D962821DCDD1602DE431 /* OpenFeature.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D899975D25DAC4B611F10D83547B7094 /* FlagShip */ = {
@@ -809,7 +807,7 @@
 			);
 			name = FlagShip;
 			productName = FlagShip;
-			productReference = ED0119196D4BF4F29B445385A429F716 /* FlagShip */;
+			productReference = ED0119196D4BF4F29B445385A429F716 /* FlagShip.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -830,8 +828,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 283122CC232AAD5606E1035E6A8AF831 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";

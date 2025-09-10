@@ -149,10 +149,16 @@ class ViewController: UIViewController {
                 self.btnColorLabel.text = "btnColor: \(btnColor)"
                 self.intValueLabel.text = "intValue: \(intValue)"
             }
+            
+            
+            
+
         }
     }
 
     @objc func updateContextButtonTapped() {
+        
+       
         let updatedContext = MutableContext(
             targetingKey: "openUserId",
             structure: MutableStructure(attributes: ["isQA": Value.boolean(false)])
