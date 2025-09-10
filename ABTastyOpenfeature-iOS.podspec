@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ABTastyOpenfeature-iOS'
   s.version          = '1.0.0'
-  s.summary          = 'is an implementation of OpenFeature's FeatureProvider protocol that integrates with AB Tasty's feature flag management system through the Flagship SDK. It provides a bridge between OpenFeature's standardized API and AB Tasty's functionality.'
+  s.summary          = 'is an implementation of OpenFeature Provider protocol that integrates with ABTasty feature flag management system through the Flagship SDK.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
