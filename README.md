@@ -181,7 +181,7 @@ public init(
 | ------------ | -------------- | ---------------------------------------------------------------------------------------------------------------- |
 | envId        | String         | Environment ID provided by ABTasty                                                                              |
 | apiKey       | String         | Api authentication key provided by ABTasty.                                                                     |
-| configurator | FlagshipConfig | Custom flagship configuration. [see SDK configuration](https://docs.abtasty.com/server-side/sdks/ios/ios-1/swift-reference) |
+| configurator | FlagshipConfig | Custom flagship configuration. [see SDK configuration](https://docs.abtasty.com/server-side/sdks/ios/ios-1/swift-reference#configuration) |
 
 
 
