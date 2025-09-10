@@ -79,8 +79,7 @@ public class ABTastyProvider: FeatureProvider {
     }
 
     public func getObjectEvaluation(key: String, defaultValue: OpenFeature.Value, context: (any OpenFeature.EvaluationContext)?) throws -> OpenFeature.ProviderEvaluation<OpenFeature.Value> {
-        return ProviderEvaluation(
-            value: defaultValue)
+        return abClient?.getFlagEvaluation(flagKey: key, defaultValue: defaultValue) ?? ProviderEvaluation(value: defaultValue)
     }
 
     public func observe() -> AnyPublisher<OpenFeature.ProviderEvent?, Never> {

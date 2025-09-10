@@ -1,29 +1,37 @@
-# ABTastyOpenfeature-iOS
+# iOS 1.0.0
 
-[![CI Status](https://img.shields.io/travis/Adel/ABTastyOpenfeature-iOS.svg?style=flat)](https://travis-ci.org/Adel/ABTastyOpenfeature-iOS)
-[![Version](https://img.shields.io/cocoapods/v/ABTastyOpenfeature-iOS.svg?style=flat)](pod init)
-[![License](https://img.shields.io/cocoapods/l/ABTastyOpenfeature-iOS.svg?style=flat)](https://cocoapods.org/pods/ABTastyOpenfeature-iOS)
-[![Platform](https://img.shields.io/cocoapods/p/ABTastyOpenfeature-iOS.svg?style=flat)](https://cocoapods.org/pods/ABTastyOpenfeature-iOS)
+#### Welcome to the Comprehensive Guide for OpenFeature x Flagship iOS
 
-## Example
+This documentation is your one-stop resource for integrating Flagship integration for OpenFeature.  Our library comes with preconfigured methods designed to simplify the implementation of the Decision API or Bucketing Mode. Let's get started on enhancing your development experience with OpenFeature x Flagship!
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+* [Installation](https://docs.abtasty.com/server-side/~/changes/62/integrations/open-feature/open-feature-js-1/open-feature-js-installation): Step-by-step instructions to set up OpenFeature in your environment.
+* [Quick Start](https://docs.abtasty.com/server-side/~/changes/62/integrations/open-feature/open-feature-js-1/open-feature-js-quick-start): Get up and running with Flagship in no time.
+* [Reference](https://docs.abtasty.com/server-side/~/changes/62/integrations/open-feature/open-feature-js-1/open-feature-js-reference): Detailed API documentation for in-depth understanding.
 
-## Requirements
+## SDK features
 
-## Installation
+This version of the SDK lets you :
 
-ABTastyOpenfeature-iOS is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+* Set a [visitor ID](https://docs.abtasty.com/server-side/~/changes/62/glossary#visitor-id)
+* Update [visitor context](https://docs.abtasty.com/server-side/~/changes/62/glossary#user-context)
+* Evaluate flags;
 
-```ruby
-pod 'ABTastyOpenfeature-iOS'
-```
+## Prerequisites
 
-## Author
+**- iOS 15.0+**
 
-Adel, adel@abtasty.com
+**- Xcode 14.0+**
 
-## License
+**- ABTasty account with environment ID and API key**
 
-ABTastyOpenfeature-iOS is available under the MIT license. See the LICENSE file for more info.
+## Versions
+
+The latest version of our iOS SDK is [**1.0.0**](https://docs.abtasty.com/server-side/~/changes/62/integrations/open-feature/open-feature-js-1/open-feature-js-reference)
+
+#### Change logs
+
+Find the versions change logs on our [Github Repository](https://github.com/flagship-io/openfeature-provider-iOS.git/releases).
+
+## Contact us
+
+Feel free to [contact us](mailto:product.feedback@abtasty.com?subject=Flagship%20Developer%20Documentation) if you have any questions regarding this documentation.
