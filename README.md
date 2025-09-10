@@ -27,7 +27,9 @@ This documentation is your one-stop resource for integrating Flagship integratio
 
 ## Installation
 **- iOS 15.0+**
+
 **- Xcode 14.0+**
+
 **- ABTasty account with environment ID and API key**
 
 ### Installation Methods
