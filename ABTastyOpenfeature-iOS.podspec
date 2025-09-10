@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ABTastyOpenfeature-iOS'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of ABTastyOpenfeature-iOS.'
+  s.summary          = 'is an implementation of OpenFeature's FeatureProvider protocol that integrates with AB Tasty's feature flag management system through the Flagship SDK. It provides a bridge between OpenFeature's standardized API and AB Tasty's functionality.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Adel/ABTastyOpenfeature-iOS'
+  s.homepage         = 'https://github.com/flagship-io/openfeature-provider-iOS#readme'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Adel' => 'adel@abtasty.com' }
-  s.source           = { :git => 'https://github.com/Adel/ABTastyOpenfeature-iOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/flagship-io/openfeature-provider-iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '15.0'
